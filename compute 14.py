@@ -1,6 +1,4 @@
-n=int(input("enter a number:"))
-temp=str(n)
-t1=temp+temp
-t2=temp+temp+temp
-comp=n+int(t1)+int(t2)
-print("The value is :",comp)
+n=int(input("enter an integer"))
+s=n**2
+s1=n**3
+print(n+s+s1)
